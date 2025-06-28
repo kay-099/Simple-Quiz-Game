@@ -6,7 +6,7 @@ totalQestionList = len(AnswerandQuestion.Questionlist)
 
 def Marker(index):
     answers = AnswerandQuestion.Answerlist[index]
-    print("Answer:..")
+    print("Answer:")
     userinput = input()
     
     # return the score if correct.
